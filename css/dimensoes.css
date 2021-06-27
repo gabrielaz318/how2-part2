@@ -1,0 +1,649 @@
+
+/**? Extra extra large *******************************/
+@media (min-width: 1440px) {
+    /*Ta certo*/
+}
+
+@media (max-width: 1780px) {
+    #corpo-projeto {
+        width: 1300px;
+    }
+    #betocarrero img, #toddy img, #pepsico img{
+        width: 700px;
+    }
+
+    #pepsico, #toddy {
+        margin-top: 110px;
+    }
+}
+
+
+
+/**? Extra large *************************************/
+@media (max-width: 1439px) and (min-width:1200px) {
+    .nav-desktop {
+        max-width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1920px/1920xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1920px/1920xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1920px/1920xContatos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #corpo-projeto {
+        width: 80%
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 500px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        font-size: 2.5rem;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1.2rem;
+    }
+
+    /**PEPSICO*/
+    #pepsico {
+        margin-top: 70px;
+    }
+    
+    /**TODDY*/
+    #toddy {
+        margin-top: 70px;
+    }
+}
+
+
+
+/**? Large *************************************/
+@media (max-width: 1199px) and (min-width:993px) {
+    .nav-desktop {
+        max-width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1920px/1920xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1920px/1920xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1920px/1920xContatos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #titulo h1 {
+        font-size: 6rem;
+    }
+    #corpo-projeto {
+        width: 80%;
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 400px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        font-size: 2.1rem;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1rem;
+    }
+
+    /**PEPSICO*/
+    #pepsico {
+        margin-top: 70px;
+    }
+    
+    /**TODDY*/
+    #toddy {
+        margin-top: 70px;
+    }
+
+    /**CONTATOS*/
+
+    #corpo-contato {
+        width: 900px;
+    }
+
+    .card-email, .card-telefone, .card-endereco {
+        width: 250px;
+        height: 170px;
+    }
+}
+
+
+
+/**? Medium *************************************/
+@media (max-width: 992px) and (min-width: 767px) {
+    /**Header*/
+    #corpo-home, #corpo-projeto, #corpo-contato {
+        width: 80%
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1200px/1200xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xContato.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .divMobile {
+        display: block;
+    }
+    #titulo h1{
+        font-size: 4.8rem;
+        text-align: center;
+    }
+    #corpo-projeto {
+        width: 92%
+    }
+    #corpo-contato {
+        max-width: 730px;
+        width: 100%;
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 400px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        font-size: 2.1rem;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1rem;
+    }
+
+    /**PEPSICO*/
+    #pepsico {
+        margin-top: 70px;
+    }
+    
+    /**TODDY*/
+    #toddy {
+        margin-top: 70px;
+    }
+
+    /**CONTATOS*/
+
+    #contato {
+        flex-wrap: wrap;
+    }
+
+    .card-email, .card-telefone, .card-endereco {
+        width: 250px;
+        height: 170px;
+    }
+
+    .card-email h4, .card-telefone h4, .card-endereco h4 {
+        font-size: 1.2rem;
+    }
+    .card-email p, .card-telefone p, .card-endereco p {
+        font-size: 1rem;
+    }
+    .card-email {
+        order: 3;
+        margin-top: 90px;
+    }
+    
+}
+
+
+
+/**? Small ************************************/
+@media (max-width: 768px) and (min-width: 577px) {
+    /**Header*/
+    #corpo-projeto, #corpo-contato {
+        max-width: 730px;
+        width: 100%;
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1200px/1200xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xContato.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #corpo-home {
+        width: 500px;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .divMobile {
+        display: block;
+    }
+    .nav-mobile {
+        width: 50%;
+    }
+    #titulo h1{
+        text-align: center;
+        font-size: 5.2rem;
+    }
+    #betocarrero, #toddy, #pepsico {
+        flex-direction: column;
+    }
+    #betocarrero { 
+        margin-bottom: 0; 
+        padding: 0; 
+    }
+    #pepsico {
+        margin-top: 30px;
+    }
+    #toddy {
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+    #toddy::before, #pepsico::before {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 410px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 60px 0;
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 500px;
+    }
+    #betocarrero .texto, #toddy .texto, #pepsico .texto {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        font-size: 2.6rem;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1.1rem;
+        text-align: center;
+        align-items: center;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    /**CONTATOS*/
+    #contato {
+        flex-wrap: wrap;
+    }
+
+    .card-email, .card-telefone, .card-endereco {
+        width: 250px;
+        height: 170px;
+    }
+
+    .card-email h4, .card-telefone h4, .card-endereco h4 {
+        font-size: 1.2rem;
+    }
+    .card-email p, .card-telefone p, .card-endereco p {
+        font-size: 1rem;
+    }
+    .card-email {
+        order: 3;
+        margin-top: 90px;
+    }
+
+}
+
+
+
+/**? X-Small *************************************/
+@media (max-width: 576px) and (min-width: 480px) {
+    /**Header*/
+    #corpo-home, #corpo-projeto, #corpo-contato {
+        max-width: 560px;
+        width: 100%;
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1200px/1200xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xContato.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .divMobile {
+        display: block;
+    }
+    .nav-mobile {
+        width: 70%;
+    }
+    #titulo h1{
+        font-size: 4.8rem;
+        text-align: center;
+    }
+    #sobre p {
+        width: 400px;
+    }
+    #betocarrero, #toddy, #pepsico {
+        flex-direction: column;
+    }
+    #betocarrero { 
+        margin-bottom: 0; 
+        padding: 0; 
+    }
+    #pepsico {
+        margin-top: 20px;
+    }
+    #toddy {
+        margin-top: 125px;
+        margin-bottom: 40px;
+    }
+    #toddy::before, #pepsico::before {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 340px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 60px 0;
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 400px;
+    }
+    #betocarrero .texto, #toddy .texto, #pepsico .texto {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        font-size: 2.5rem;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1.1rem;
+        text-align: center;
+        align-items: center;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    /**CONTATOS*/
+    #contato {
+        flex-wrap: wrap;
+    }
+    #corpo-contato {
+        width: 260px;
+    }
+
+    .card-email, .card-telefone, .card-endereco {
+        width: 250px;
+        height: 170px;
+        margin-top: 90px;
+    }
+
+    .card-email h4, .card-telefone h4, .card-endereco h4 {
+        font-size: 1.2rem;
+    }
+    .card-email p, .card-telefone p, .card-endereco p {
+        font-size: 1rem;
+    }
+    .card-endereco {
+        margin-top: 0;
+    }
+    
+}
+
+@media (max-width: 479px) and (min-width: 420px) {
+    /**Header*/
+    #corpo-home, #corpo-projeto, #corpo-contato {
+        max-width: 460px;
+        width: 100%;
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1200px/1200xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xContato.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .divMobile {
+        display: block;
+    }
+    .nav-mobile {
+        width: 70%;
+    }
+    #titulo h1{
+        font-size: 4.8rem;
+        text-align: center;
+    }
+    #sobre p {
+        width: 80%;
+        min-width: 220px;
+        font-size: 1.1rem;
+    }
+    #betocarrero, #toddy, #pepsico {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 80%;
+        min-width: 250px;
+    }
+    #betocarrero .texto, #toddy .texto, #pepsico .texto {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        margin-top: 70px;
+        font-size: 2.2rem;
+    }
+    #betocarrero h4 {
+        text-align: center;
+        width: 250px;
+        margin-top: 0;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    /**CONTATOS*/
+    #contato {
+        flex-wrap: wrap;
+    }
+    #corpo-contato {
+        width: 80%;
+    }
+
+    .card-email, .card-telefone, .card-endereco {
+        min-width: 200px;
+        height: 170px;
+        margin-top: 90px;
+    }
+
+    .card-email h4, .card-telefone h4, .card-endereco h4 {
+        font-size: 1.2rem;
+    }
+    .card-email p, .card-telefone p, .card-endereco p {
+        font-size: 1rem;
+    }
+    .card-endereco {
+        margin-top: 0;
+    }
+    
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 419px) {
+    .nav-mobile {
+        width: 100%;
+    }
+    #bg-header{
+        background-image: url('../images/ImagensFundo/1200px/1200xHeader.jpg') ;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #bg-projetos {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xProjetos.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #bg-contato {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%,rgba(0, 0, 0, 0.5) 100%), url('../images/ImagensFundo/1200px/1200xContato.jpg') repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    /**Header*/
+    #corpo-home, #corpo-projeto, #corpo-contato {
+        max-width: 460px;
+        width: 100%;
+    }
+    #titulo h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .divMobile {
+        display: block;
+    }
+    #sobre p {
+        width: 80%;
+        min-width: 220px;
+        font-size: 1.1rem;
+    }
+    #betocarrero, #toddy, #pepsico {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    #betocarrero img, #toddy img, #pepsico img {
+        width: 80%;
+        min-width: 250px;
+    }
+    #betocarrero .texto, #toddy .texto, #pepsico .texto {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    #betocarrero h4, #toddy h4, #pepsico h4 {
+        margin-top: 70px;
+        font-size: 2.2rem;
+    }
+    #betocarrero h4 {
+        text-align: center;
+        width: 250px;
+        margin-top: 0;
+    }
+    #betocarrero p, #toddy p, #pepsico p  {
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    /**CONTATOS*/
+    #contato {
+        flex-wrap: wrap;
+    }
+    #corpo-contato {
+        width: 80%;
+    }
+
+    .card-email, .card-telefone, .card-endereco {
+        min-width: 200px;
+        height: 170px;
+        margin-top: 90px;
+    }
+
+    .card-email h4, .card-telefone h4, .card-endereco h4 {
+        font-size: 1.2rem;
+    }
+    .card-email p, .card-telefone p, .card-endereco p {
+        font-size: 1rem;
+    }
+    .card-endereco {
+        margin-top: 0;
+    }
+    footer p {
+        font-size: 0.9rem;
+    }
+}

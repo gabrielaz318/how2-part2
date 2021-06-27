@@ -1,0 +1,84 @@
+/** WAVE OPACITY */
+.custom-shape-divider-bottom-1621308686 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621308686 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-bottom-1621308686 .shape-fill {
+    fill: #f0f0f0;
+}
+
+/** TILT DE PROJETOS - WAVE */
+.custom-shape-divider-top-1621308793 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621308793 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-top-1621308793 .shape-fill {
+    fill: #f0f0f0;
+}
+
+/** TILT DE CONTATOS */
+.custom-shape-divider-bottom-1621303898 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621303898 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-bottom-1621303898 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1621304138 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621304138 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-top-1621304138 .shape-fill {
+    fill: #FFFFFF;
+}

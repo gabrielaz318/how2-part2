@@ -1,0 +1,45 @@
+/* ELEMENTOS */
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="esquerda"] {
+    transform: translate3d(50px,0,0);
+}
+[data-anime="direita"] {
+    transform: translate3d(-50px,0,0);
+}
+[data-anime="baixo"] {
+    transform: translate3d(0,50px,0);
+}
+[data-anime="titulos"] { 
+    filter: blur(9px);
+    transform: scale(.8,.8);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    filter: blur(0);
+    transform: scale(1,1);
+}
+
+/* NAV */
+.nav-animate {
+    background-color: rgba(150, 150, 150, 0.2);
+    backdrop-filter: blur(6px);
+}
+
+/* Mobile menu */
+[data-nav].menu-animado {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+/*Titulo*/
+[data-titulo].tituloAnime {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate3d(0,0,0);
+}
+
